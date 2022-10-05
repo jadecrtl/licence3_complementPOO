@@ -1,0 +1,25 @@
+Exercice 1 :
+Le programme compile et les printf affichent :
+a=(a, 5)
+a=(22, 11)
+o=(6, 17)
+b=(33, 33)
+
+Exercice 2 :
+
+
+Exercice 3 :
+
+
+Exercice 4 :
+
+
+Exercice 5 :
+
+
+Exercice 6 :
+
+
+Exercice 7 :
+
+

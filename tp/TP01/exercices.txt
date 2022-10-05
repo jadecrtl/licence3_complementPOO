@@ -1,0 +1,37 @@
+Exercice 1 :
+
+1)VRAI
+2)FAUX
+3)VRAI
+4)FAUX
+5)FAUX
+6)FAUX
+7)FAUX
+
+Exercice 2 :
+Les lignes 13, 14 et 15 affichent :
+1
+1
+3
+
+Exercice 3 :
+
+EvenNumbersGenerator : 
+
+le probleme : l'attribut previous est en public donc avant meme d'appeler la methode next() quelqu'un pourrait initialiser previous a un nombre impair et donc la methode next() retournera des entiers impairs.
+
+La solution : changer l'attribut previous en private
+
+VectAdditioner :
+
+Le probleme : si quelqu'un modifie le point sum originale en ayant acces au Point grace a getSum() alors a chaque fois qu'on redemandera getSum() alors il sera pas comme celui de base qui est impacté que par la méthode add().
+
+La solution : il faudrait return un nouveau Point identique à sum dans la méthode getSum()
+
+Exercice 4 :
+
+Pour la classe SimpleDate :
+    il y a le modificateur static qui manque à la définition de la fonction isValid.
+
+Pour la classe Employe :
+    - Actuellement la classe Employe n'est pas immuable. Il suffit 
