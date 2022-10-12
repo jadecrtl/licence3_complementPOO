@@ -1,0 +1,13 @@
+Exercice 1 :
+
+    On veut savoir parmi la liste suivantes lesquelles sont correctes :
+    -   interface K extends B {} : "The type B cannot be a superinterface of K; a superinterface must be an interface" donc pas correcte
+    -   interface K extends I, J {} : correcte
+    -   interface K implements B {} : "Syntax error on token "implements", extends expected" donc pas correcte
+    -   class C implements J {} : correcte
+    -   class C extends A implements I {} : correcte
+    -   class C extends A, B {} : "Syntax error on token ",", . expected" donc pas correcte
+    -   class C extends I {} : "The type I cannot be the superclass of C; a superclass must be a class" donc pas correcte
+    -   class C implements I, J {} : correcte
+
+    
