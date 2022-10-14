@@ -1,3 +1,0 @@
-public enum Mention {
-    PASSABLE, ASSEZ_BIEN, BIEN, TRES_BIEN, FELICITATIONS;
-}
